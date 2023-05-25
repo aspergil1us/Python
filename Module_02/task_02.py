@@ -1,9 +1,10 @@
 print('Задача 2. Цвета')
+print()
 
 # Что нужно сделать
 # Исправьте программу так, чтобы в результате её выполнения
 # на экран в одну строку выводился текст: Red Blue Green RedGreenBlue Blue GreenBlue.
-print()
+
 r = 'Red'
 g = 'Green'
 b =  'Blue'
