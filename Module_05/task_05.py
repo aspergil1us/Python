@@ -13,9 +13,9 @@ print()
 number_one = int(input('Введите число 1: '))
 number_two = int(input('Введите число 2: '))
 number_three = int(input('Введите число 3: '))
-if number_one == number_two and number_three == number_two:
+if number_one == number_two == number_three:
     print('все совпадают')
-if number_one == number_two or number_two == number_three or number_one == number_three:
+elif number_one == number_two or number_two == number_three or number_one == number_three:
     print('два совпадают')
 else:
     print('все числа разные')

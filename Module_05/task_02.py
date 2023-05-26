@@ -21,11 +21,10 @@ print()
 # Игрек равен 36
 
 x = int(input('Введите икс: '))
-y = 0
 if x > 0:
     y = x -12
-if x == 0:
-    y +=5
-if x < 0:
+elif x == 0:
+    y =+ 5
+else:
     y = x ** 2
 print('Игрек равен', y)
