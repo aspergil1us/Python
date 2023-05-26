@@ -17,10 +17,10 @@ print()
 
 experience = int(input('Введите колличество полученного опыта: '))
 level = 1
-if experience >= 1000 and experience < 1000 + 2500:
+if experience >= 1000:
     level = level + 1
-if experience >= 1000 + 2500 and experience < 1000 + 2500 + 5000:
+if experience >= 2500:
     level = level + 2
-if experience >= 1000 + 2500 + 5000:
+if experience >= 5000:
     level = level + 3
 print('Ваш уровень:', level)
