@@ -17,6 +17,6 @@ y = int(input('Введите желаемую сумму: '))
 xp = x * p / 100 + x
 year = 1
 while xp < y:
-    year = year + 1
+    year += 1
     xp = xp * p / 100 + xp
 print(year, 'лет пройдет, до желаемой суммы')

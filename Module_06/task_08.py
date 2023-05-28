@@ -24,4 +24,14 @@ count = 0
 while True:
     secret = (up + down) // 2
     count += 1
-    
+    answer = int(input('1, 2, 3? '))
+    if answer == 2:
+        down = secret
+        secret = (secret + up) // 2
+    if answer == 3:
+        up = secret
+        secret = (secret + down) // 2
+    if answer == 1:
+        break
+    print(secret)
+print(count)

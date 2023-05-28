@@ -17,13 +17,13 @@ print()
 # Введите число: 7
 # Вы угадали! Число попыток: 4
 
-number = int(input('Введите число: '))
-cicl = 1
+number = 0
+cicl = 0
 while number != 7:
+    number = int(input('Введите число: '))
     if number < 7:
         print('Число меньше, чем нужно. Попробуйте ещё раз!')
     if number > 7:
         print('Число больше, чем нужно. Попробуйте ещё раз!')
-    number = int(input(''))
     cicl += 1
 print('Вы угадали! Число попыток: ' , cicl)   
