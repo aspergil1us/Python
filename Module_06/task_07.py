@@ -21,10 +21,9 @@ number = int(input('Введите число: '))
 cicl = 1
 while number != 7:
     if number < 7:
-        cicl += 1
         print('Число меньше, чем нужно. Попробуйте ещё раз!')
     if number > 7:
-        cicl += 1
         print('Число больше, чем нужно. Попробуйте ещё раз!')
     number = int(input(''))
+    cicl += 1
 print('Вы угадали! Число попыток: ' , cicl)   

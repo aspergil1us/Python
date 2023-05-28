@@ -51,15 +51,15 @@ print()
 
 hour = 1 
 done = 0
-wife = 0
+wife = False
 while hour != 9:
     print(hour, 'час')
     task = int(input('Сколько задач решит Максим? '))
     coll_wife = int(input('Звонит жена. Взять трубку? (1-да, 0-нет) '))
     if coll_wife == 1:
-        wife = 1
+        wife = True
     done += task
     hour += 1
 print('Рабочий день закончился. Всего выполнено задач: ', done)
-if wife == 1:
+if wife:
     print('Нужно зайти в магазин')

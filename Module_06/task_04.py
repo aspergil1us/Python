@@ -20,13 +20,9 @@ print()
 # Кол-во положительных чисел: 1
 # Кол-во отрицательных чисел: 2
 
-number = int(input('Введите число: '))
+#number = int(input('Введите число: '))
 minus = 0
 plus = 0
-if number < 0:
-        minus += 1
-if number > 0:
-        plus += 1
 while number != 0:
     number = int(input('Введите число: '))
     if number < 0:

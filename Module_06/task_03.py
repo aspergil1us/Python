@@ -13,8 +13,7 @@ print()
 # Ответ: 4
 
 number = int(input('Введите число: '))
-res = 1
 while number > 1:
     number = number // 10
-    res += 1
+    res = res + 1
 print('Ответ: ', res)
